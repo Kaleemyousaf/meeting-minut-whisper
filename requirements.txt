@@ -1,6 +1,9 @@
 streamlit
 whisper
 python-docx
-gradio
-pyaudio
-portaudio19-dev
+openai-whisper
+streamlit==1.22.0
+whisper==1.0
+python-docx==0.8.11
+openai-whisper==20230314
+ffmpeg
