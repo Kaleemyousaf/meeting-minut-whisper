@@ -1,16 +1,18 @@
 # Core Libraries
-streamlit==1.26.0
+streamlit==1.26.0                   # For building the web interface
 
 # Whisper model for transcription
-openai-whisper==20230314
-ffmpeg-python==0.2.0
+openai-whisper==20230314            # For audio transcription
+ffmpeg-python==0.2.0                # For audio processing support
 
-# PyTorch and TorchVision (flexible versioning to allow environment compatibility)
-torch>=2.0,<3.0
-torchvision
+# PyTorch and TorchVision (with broader compatibility)
+torch>=2.0,<3.0                     # Required by Whisper for neural model processing
+torchvision>=0.15                   # Required for neural processing of visual elements (latest available)
 
 # Document generation
-python-docx==0.8.11
+python-docx==0.8.11                 # For creating and saving Word documents
 
 # Additional Libraries
-numpy>=1.24,<1.25
+numpy>=1.24,<1.25                   # For numerical processing
+
+# System dependencies: Ensure `distutils` and `ffmpeg` are available in the system environment
