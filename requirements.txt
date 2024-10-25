@@ -1,8 +1,7 @@
 streamlit==1.39.0
-openai-whisper==20230314
+openai-whisper==20230610  # Change to a version compatible with your setup
 ffmpeg-python==0.2.0
-torch==2.5.0
-torchvision==0.20.0
+torch==2.0.0  # Ensure this version is compatible with the whisper library
+torchvision==0.15.0
 python-docx==1.1.2
-numpy==2.1.2
-setuptools==75.2.0
+numpy==1.24.3
