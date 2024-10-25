@@ -7,3 +7,5 @@ whisper==1.0
 python-docx==0.8.11
 openai-whisper==20230314
 ffmpeg
+numpy
+pandas
