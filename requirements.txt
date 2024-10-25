@@ -1,9 +1,8 @@
-# Core Libraries
-streamlit
+streamlit==1.39.0
 openai-whisper==20230314
-ffmpeg-python
-torch
-torchvision
-python-docx
-numpy
-setuptools
+ffmpeg-python==0.2.0
+torch==2.5.0
+torchvision==0.20.0
+python-docx==1.1.2
+numpy==2.1.2
+setuptools==75.2.0
