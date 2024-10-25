@@ -1,4 +1,6 @@
-streamlit==1.25.0
-openai-whisper==20230314
-python-docx==0.8.11
-torch==2.0.1  # Required by Whisper for model inference
+streamlit
+whisper
+python-docx
+gradio
+pyaudio
+portaudio19-dev
