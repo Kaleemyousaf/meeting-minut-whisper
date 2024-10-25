@@ -7,3 +7,27 @@ streamlit
 torch
 whisper
 python-docx
+# Streamlit and its dependencies
+streamlit==1.39.0
+
+# Whisper for speech recognition
+openai-whisper==20230314
+
+# FFmpeg for video/audio processing
+ffmpeg-python==0.2.0
+
+# PyTorch and torchvision for machine learning
+torch==2.5.0
+torchvision==0.20.0
+
+# Document handling
+python-docx==1.1.2
+
+# Numerical computations
+numpy==2.1.2
+
+# Packaging tools
+setuptools==75.2.0
+
+# Optional: If you need llvmlite, specify a compatible version or consider removing it
+# llvmlite==0.34.0  # Uncomment if needed and ensure llvm-config is installed
